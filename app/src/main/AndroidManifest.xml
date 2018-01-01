@@ -19,6 +19,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".UserIdentityActivity" android:label="UserIdentity"> </activity>
+        <activity android:name=".TouchScreenActivity" android:label="TouchScreen"> </activity>
+        <activity android:name=".ShowUserDataActivity" android:label="ShowScreen"> </activity>
+        <activity android:name=".VerifyScreenActivity" android:label="VerifyUser"> </activity>
+        <activity android:name=".ExportDataActivity" android:label="ExportData"> </activity>
+        <activity android:name=".ClassifierActivity" android:label="Classifier"> </activity>
+        <activity android:name=".GestureBuilderActivity" android:label="@string/application_name" > </activity>
+        <activity android:name=".CreateGestureActivity" android:label="@string/label_create_gesture" > </activity>
+        <activity android:name=".GestureTest" android:label="@string/verify_class" > </activity>
     </application>
 
 </manifest>
